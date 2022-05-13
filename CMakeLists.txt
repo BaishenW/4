@@ -4,3 +4,5 @@ project(ee205_final_exam)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(ee205_final_exam main.cpp Shape.h Rectangle.cpp Rectangle.h Square.cpp Square.h)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
