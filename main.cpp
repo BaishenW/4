@@ -14,11 +14,11 @@ int main() {
               << std::endl;
 
     Square mySquare2(5);
-    std::cout << "The area of mySquare is: "
+    std::cout << "The area of mySquare2 is: "
               << mySquare2.compute_area()
               << std::endl;
     Rectangle myRectangle2( 7, 5 );
-    std::cout << "The area of myRectangle is: "
+    std::cout << "The area of myRectangle2 is: "
               << myRectangle2.compute_area()
               << std::endl;
 
